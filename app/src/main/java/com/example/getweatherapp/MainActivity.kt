@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getWeatherNews(): Job = GlobalScope.launch{
         result = ""
-        var API_KEY = "3641c8ce4e91f48596f6faa5c95ac6a4"
+        var API_KEY = "******"
         var API_URL = "https://api.openweathermap.org/data/3.0/onecall?" +
                 "lat=" + lat + "&" +
                 "lon=" + lon + "&" +
